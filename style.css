@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+main, mainr{
+    background-color: #252d37;
+    color:white;
+    padding: 25px;
+    border-radius: 20px;
+   
+}
+
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff08;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+#top img{
+    width: 0.9rem;
+}
+
+#txt h2{
+    margin:20px 0 0 0;
+    
+}
+.text {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+
+
+#numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#num{
+    display: flex;
+    background-color: #ffffff13;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    opacity: 70%;
+}
+#num:hover{
+    background-color: #fb7413;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+#num:focus{
+    background-color: gray;
+}
+
+
+button{
+    width: 100%;
+    border: none;
+    background-color: #fb7413;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    margin-top: 20px;
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+button:hover{
+    cursor: pointer;
+    color: orange;
+    background-color: aliceblue;
+    transition: 0.3s
+    ;
+}
+
+.hidden{
+    display:none;
+}
+mainr, #thank-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#topr img{
+    width: 7.5rem;
+    margin-bottom: 15px;
+
+}
+
+#select{
+    margin-bottom: 25px;
+}
+#select p{
+    
+    line-height: 26px;
+    background-color:  #ffffff13;
+    border-radius: 30px;
+    padding: 0.2rem 0.8rem 0;
+    font-size: 0.75rem;
+    color: #f9812b;
+    font-weight: 400;
+    
+}
+#thank-txt{
+    padding-bottom: 10px;
+}
+
+@media (min-width:576px) {
+    
+    main, mainr{
+        width: 350px;
+    }
+}
+
